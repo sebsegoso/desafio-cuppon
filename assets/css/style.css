@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+
+  text-decoration: none;
+}
+
+body {
+  font-weight: 300;
+}
+
+.navbar-brand img {
+  height: 1.5625rem;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.oscuro {
+  color: #212529;
+  font-weight: 300;
+}
+
+.texto-gris {
+  color: #707070;
+}
+
+#cupones {
+  padding-top: 60px;
+}
+
+.nombre-local {
+  font-size: 1rem;
+}
+
+.direccion {
+  font-size: 0.8125rem;
+}
+
+/* encuadre de los precios rusticamente sin usar*/
+.cuatro-cifras {
+  padding-left: 53%;
+}
+
+.cinco-cifras {
+  padding-left: 45%;
+}
+
+.seis-cifras {
+  padding-left: 42%;
+}
+
+.precio-final {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.precio-antiguo,
+.precio-final {
+  display: inline-block;
+}
+
+.recibe {
+  font-size: 1.3125rem;
+}
+
+.btn {
+  font-weight: 500;
+  color: #212529;
+}
+.logo-oscuro {
+  width: 5.125rem;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px #707070;
+  transition: box-shadow 0.25s;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .tarjeta-sin-precio {
+    height: 100%;
+  }
+
+  .card {
+    height: 100%;
+  }
+
+  .cuatro-cifras {
+    padding-left: 60%;
+  }
+
+  .cinco-cifras {
+    padding-left: 53%;
+  }
+
+  .seis-cifras {
+    padding-left: 50%;
+  }
+
+  .formulario {
+    padding: 0 25%;
+  }
+  .recibe {
+      font-size: 2.25rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .cuatro-cifras {
+    padding-left: 48%;
+  }
+
+  .cinco-cifras {
+    padding-left: 39%;
+  }
+
+  .seis-cifras {
+    padding-left: 36%;
+  }
+  .formulario {
+    padding: 0 25%;
+  }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .cuatro-cifras {
+    padding-left: 58%;
+  }
+
+  .cinco-cifras {
+    padding-left: 51%;
+  }
+
+  .seis-cifras {
+    padding-left: 48%;
+  }
+}
